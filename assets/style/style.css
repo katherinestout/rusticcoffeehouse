@@ -7,6 +7,10 @@
     font-family: 'Lobster', cursive;
     color: maroon;
 }
+.rustic2 {
+    font-family: 'Lobster', cursive;
+    color: white;
+}
 
 .maintext {
 
@@ -25,12 +29,19 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+.notification {
+    margin-left: 10px;
+}
+
+.rusticQuote {
+    margin-top: 10%;
+}
 
 #firstpagecontainer {
     margin-top: 0%;
 }
 
-#blendscontainer{ margin-top: 26%;
+#blendscontainer{ margin-top: 0%;
 
 }
 

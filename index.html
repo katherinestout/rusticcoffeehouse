@@ -47,18 +47,15 @@
 
 .blendshead{
     background: black url(assets/images/coffee6.jpg) center / cover;
-    height: 400px;
+    height: 100px; 
 }
 
-.jamminJava{
-    background: black url(assets/images/coffee7.jpg) center / cover;
-}
+
 .rusticRoast{
     background: black url(assets/images/coffee8.jpg) center / cover;
+    height: 550px;
 }
-.apiAppliachia{
-    background: black url(assets/images/coffee9.jpg) center / cover;
-}
+
 
 </style>
 </head>
@@ -119,7 +116,7 @@
                                     <br>
                                         Check out our different blends!
                                     <br>
-                                    <a class="button is-light is-small" id="blendsbtn"> Blends </a>
+                        <a class="button is-light is-small" id="blendsbtn" href="blends.html"> Blends </a>
                   </p>
                   <!--check out our different coffees!-->
     
@@ -151,26 +148,44 @@
             
 
 <!-- blends page-->
-<section class= "hero-head blendshead is-fullheight" id="blendspage">
-   
-            <div class="container" id= "blendscontainer">
-            <div class="columns">
-                <div class="column jamminJava" style="height: 350px;">
-                   
-                </div>
+<section class="hero-body">
+        <div class="container" id= "blendscontainer">
+        
+        <div class="columns">
+            <div class="column notification is-light is-one-third">
+                   <p class="rustic is-size-2"> Jammin Java </p>
+                   <p class="maintext">
+                       A light roast exotic blend of javascript and jquery beans.
+                       From the distant hills of html and css, you cant taste the tears
+                       of the coding bootcamp when they try to learn things. Or at least mine.
+                    </p>
+              
             </div>
-            <div class="columns">
-                <div class="column rusticRoast"style="height: 350px;">
-                       
-
+            <div class="column notification is-light is-one-third">
+                    <p class="rustic is-size-2">API Appliachia</p>
+                    <p class="maintext">
+                            The API Appliachia blend is slightly easier to take in then the Java,
+                            with it's robust flavor and slightly odd aftertaste this is a coffee
+                            unique like no other. The simplicity makes it beautiful.
+                        </p>
+                      
                 </div>
-            </div>
-            <div class="columns">
-                    <div class="column apiAppliachia" style="height: 350px;">
+  
+          
+                <div class="column notification is-light">
+                        <p class="rustic is-size-2 is-one-third">Rustic Roast</p>
+                           <p class="maintext">
+                          Rustic Roast is Joe's first and original blend of coffee. 
+                          It sustained him on the Appliachian trail for months, with little to no food.
+                          What makes this blend unique is how filling it is. Joe created the first 
+                          coffee that can sustain coders and procrastinating college kids alike for 
+                          multiple all nighters. Who needs food.
+                        </p>
+                     
                     </div>
-                </div>
-            </div>
+    </div>
 
+</section>
 </section>
 <!--mugs page-->
 
