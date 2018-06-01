@@ -1,0 +1,44 @@
+
+.column {
+    text-align: center;
+    justify-content: center;
+}
+.rustic {
+    font-family: 'Lobster', cursive;
+    color: maroon;
+}
+
+.maintext {
+
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.adventerous {
+    margin-left: 65%;
+    margin-top: 12%;
+}
+
+.aboutmission{
+    margin-top: 10%;
+}
+.aboutmissionlorem {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#firstpagecontainer {
+    margin-top: 0%;
+}
+
+#blendscontainer{ margin-top: 26%;
+
+}
+
+#enter { color:olive;
+
+}
+
+#rusticid {
+    margin-top: 10%;
+}
+
