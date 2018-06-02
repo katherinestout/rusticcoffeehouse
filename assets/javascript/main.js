@@ -13,4 +13,13 @@ $( document ).ready(function() {
     $("#secondpageclick").show();
 }));
 
+    $("#blendsbtn").on('click', (function(){
+
+      $("#firstpageclick").hide();
+      $("#blendspage").show();
+      $("#secondpageclick").hide();
+    }
+  
+  ));
+
 });
